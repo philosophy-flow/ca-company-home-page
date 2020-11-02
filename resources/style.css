@@ -1,0 +1,93 @@
+body {
+  display: grid;
+  row-gap: 1%;
+  font-family: sans-serif;
+  background-color: lightgrey;
+}
+
+/* HEADER */
+header {
+  padding: 0 10px;
+
+  display: flex;
+  justify-content: space-between;
+
+  background-color: rgb(63, 19, 19);
+}
+
+header figure {
+  height: 50px;
+  margin-left: 0;
+}
+
+#logo {
+  max-height: 100%;
+}
+
+header li {
+  padding: 5px;
+  color: white;
+}
+
+/* BANNER */
+.banner {
+  text-align: center;
+  font-size: 30px;
+  background: url("/resources/media/banner.jpg");
+  background-size: cover;
+  height: 500px;
+  color: white;
+}
+
+h1 {
+  padding-top: 200px;;
+}
+/* ABOUT */
+.about {
+  border: 1px solid black;
+}
+
+#about-box {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  height: 200px;
+}
+
+#about-text {
+  width: 60%;
+  line-height: 1.75em;
+  border: 1px solid black;
+}
+
+#about-pic {
+  border: 1px solid black;
+  width: 40%;
+}
+
+/* EMPLOYEES */
+.employees {
+  border: 1px solid black;
+}
+
+#employee-box {
+  display: flex;
+}
+
+.emp {
+  height: 200px;
+  border: 1px solid black;
+}
+
+footer {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between
+}
+
+
+
+/* General */
+h2 {
+  text-align: center;
+}

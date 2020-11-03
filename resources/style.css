@@ -41,7 +41,7 @@ header a {
 .banner {
   text-align: center;
   font-size: 40px;
-  background: url("/resources/media/banner.jpeg");
+  background: url("/resources/media/banner.jpg");
   background-size: cover;
   height: 500px;
   color: white;

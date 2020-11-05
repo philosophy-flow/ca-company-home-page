@@ -4,8 +4,8 @@ html {
 body {
   display: grid;
   row-gap: 60px;
-  font-family: sans-serif;
-
+  /* font-family: sans-serif; */
+  font-family: 'Josefin Sans';
   background-color: #f2ebe8;
 }
 
@@ -34,11 +34,10 @@ header figure {
 
 header li {
   padding: 5px;
-  color: white;
 }
 
 header a {
-  color: white;
+  color: #f2ebe8;
 }
 
 /* BANNER */
@@ -48,12 +47,13 @@ header a {
   background: url("./media/banner.jpg");
   background-size: cover;
   height: 500px;
-  color: white;
+  /* color: white; */
+  color: #f2ebe8;
 }
 /* ABOUT */
 .about {
   background-color: #7b2017;
-  color: white;
+  color: #f2ebe8;
   border-radius: 3px;
 
 }
@@ -92,7 +92,7 @@ header a {
 /* EMPLOYEES */
 .employees {
   background-color: #7b2017;
-  color: white;
+  color: #f2ebe8;
   border-radius: 3px;
 }
 
@@ -126,7 +126,7 @@ footer {
   display: flex;
   justify-content: space-between;
   background-color: #7b2017;
-  color: white;
+  color: #f2ebe8;
   border-radius: 3px;
 }
 
@@ -144,4 +144,5 @@ h1 {
 h2 {
   text-align: center;
   font-size: 45px;
+  padding-top: 5px;
 }

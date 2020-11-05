@@ -5,6 +5,8 @@ body {
   display: grid;
   row-gap: 60px;
   font-family: sans-serif;
+
+  background-color: #f2ebe8;
 }
 
 /* HEADER */
@@ -14,8 +16,10 @@ header {
   display: flex;
   justify-content: space-between;
 
-  background-color: #490009;
   border-radius: 3px;
+
+  background-color: rgb(123,32,23);
+  background: linear-gradient(90deg, rgba(123,32,23,1) 25%, rgba(82,34,30,1) 50%, rgba(123,32,23,1) 75%);
 }
 
 header figure {
@@ -48,7 +52,7 @@ header a {
 }
 /* ABOUT */
 .about {
-  background-color: #490009;
+  background-color: #7b2017;
   color: white;
   border-radius: 3px;
 
@@ -87,8 +91,7 @@ header a {
 
 /* EMPLOYEES */
 .employees {
-  border: 1px solid black;
-  background-color: #490009;
+  background-color: #7b2017;
   color: white;
   border-radius: 3px;
 }
@@ -122,7 +125,7 @@ header a {
 footer {
   display: flex;
   justify-content: space-between;
-  background-color: #490009;
+  background-color: #7b2017;
   color: white;
   border-radius: 3px;
 }
